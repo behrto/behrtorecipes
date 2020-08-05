@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Downloads the latest Version from ANWENDUNG and extracts the package. Then, uploads to the JSS.</string>
+	<key>Identifier</key>
+	<string>local.jss.DevolutionsRemoteDesktopmanager-Autoupdate</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Productivity</string>
+		<key>GROUP_NAME</key>
+		<string>update-automatic-%NAME%</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplate-autoupdate.xml</string>
+		<key>NAME</key>
+		<string>Remote Desktop Manager</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Update Automaticly</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate-autoupdate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Remote Desktop Manager</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>local.pkg.DevolutionsRemoteDesktopmanager</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>local.download.DevolutionsRemoteDesktopmanager</key>
+			<dict>
+				<key>path</key>
+				<string>~/Downloads/DevolutionsRemoteDesktopmanager.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>0e3e912cbc6a0a929695e0dca8ec897ad40d58ce3fb76111cdcb15ff7de292c1</string>
+			</dict>
+			<key>local.pkg.DevolutionsRemoteDesktopmanager</key>
+			<dict>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeOverrides/DevolutionsRemoteDesktopmanager.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>d5bdce6242c0140714e0105cc89713e2b9a63eb65c7fcfccc12c14de68f24c26</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>category</key>
+				<string>%CATEGORY%</string>
+				<key>groups</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>%GROUP_NAME%</string>
+						<key>smart</key>
+						<true/>
+						<key>template_path</key>
+						<string>%GROUP_TEMPLATE%</string>
+					</dict>
+				</array>
+				<key>policy_category</key>
+				<string>%POLICY_CATEGORY%</string>
+				<key>policy_template</key>
+				<string>%POLICY_TEMPLATE%</string>
+				<key>prod_name</key>
+				<string>%NAME%</string>
+				<key>self_service_description</key>
+				<string>%SELF_SERVICE_DESCRIPTION%</string>
+			</dict>
+			<key>Processor</key>
+			<string>JSSImporter</string>
+		</dict>
+	</array>
+</dict>
+</plist>
