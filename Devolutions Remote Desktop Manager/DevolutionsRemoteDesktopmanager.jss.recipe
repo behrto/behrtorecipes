@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest Version from ANWENDUNG and extracts the package. Then, uploads to the JSS.</string>
+	<string>Downloads the latest Version from Devolutions Remote Desktopmanager and extracts the package. Then, uploads to the JSS.</string>
 	<key>Identifier</key>
 	<string>com.github.behrtorinho.jss.DevolutionsRemoteDesktopManager</string>
 	<key>Input</key>
