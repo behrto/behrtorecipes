@@ -24,7 +24,7 @@
 		<string>FileZilla ist eine freie Server- und Client-Software zur Dateiübertragung mittels FTP und SFTP</string>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>local.pkg.FileZilla</string>
+	<string>com.github.behrtorinho.pkg.FileZilla</string>
 	<key>Process</key>
 	<array>
 		<dict>
