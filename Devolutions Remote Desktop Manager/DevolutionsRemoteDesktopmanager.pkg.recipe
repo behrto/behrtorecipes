@@ -5,29 +5,14 @@
 	<key>Description</key>
 	<string>Downloads the latest version of DevolutionsRemoteDesktopmanager and creates a package.</string>
 	<key>Identifier</key>
-	<string>local.pkg.DevolutionsRemoteDesktopmanager</string>
+	<string>com.github.behrtorinho.pkg.DevolutionsRemoteDesktopManager</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
 		<string>Remote Desktop Manager</string>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>local.download.DevolutionsRemoteDesktopmanager</string>
-	<key>ParentRecipeTrustInfo</key>
-	<dict>
-		<key>non_core_processors</key>
-		<dict/>
-		<key>parent_recipes</key>
-		<dict>
-			<key>local.download.DevolutionsRemoteDesktopmanager</key>
-			<dict>
-				<key>path</key>
-				<string>~/Library/AutoPkg/RecipeOverrides/DevolutionsRemoteDesktopmanager.download.recipe</string>
-				<key>sha256_hash</key>
-				<string>0e3e912cbc6a0a929695e0dca8ec897ad40d58ce3fb76111cdcb15ff7de292c1</string>
-			</dict>
-		</dict>
-	</dict>
+	<string>com.github.behrtorinho.download.DevolutionsRemoteDesktopManager</string>
 	<key>Process</key>
 	<array>
 		<dict>

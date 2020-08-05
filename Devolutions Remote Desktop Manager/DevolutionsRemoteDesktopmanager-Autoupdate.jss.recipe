@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the latest Version from ANWENDUNG and extracts the package. Then, uploads to the JSS.</string>
 	<key>Identifier</key>
-	<string>local.jss.DevolutionsRemoteDesktopmanager-Autoupdate</string>
+	<string>com.github.behrtorinho.jss.DevolutionsRemoteDesktopManager</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
@@ -13,18 +13,18 @@
 		<key>GROUP_NAME</key>
 		<string>update-automatic-%NAME%</string>
 		<key>GROUP_TEMPLATE</key>
-		<string>SmartGroupTemplate-autoupdate.xml</string>
+		<string>SmartGroupTemplate.xml</string>
 		<key>NAME</key>
 		<string>Remote Desktop Manager</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Update Automaticly</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>PolicyTemplate-autoupdate.xml</string>
+		<string>PolicyTemplate.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>Remote Desktop Manager</string>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>local.pkg.DevolutionsRemoteDesktopmanager</string>
+	<string>com.github.behrtorinho.pkg.DevolutionsRemoteDesktopManager</string>
 	<key>ParentRecipeTrustInfo</key>
 	<dict>
 		<key>non_core_processors</key>
