@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the latest stable version of KeePassXC and creates a package.</string>
 	<key>Identifier</key>
-	<string>com.github.behrtorinho.download.KeePassXC</string>
+	<string>com.github.behrtorinho.pkg.KeePassXC</string>
 	<key>Input</key>
 	<dict>
 		<key>BUNDLE_ID</key>
