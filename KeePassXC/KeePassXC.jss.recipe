@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>com.github.behrtorinho.jss.KleePassXC</string>
+	<string>com.github.behrtorinho.jss.KeePassXC</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
