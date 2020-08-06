@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads latest version of KeePassXC and builds an pkg. Then, uploads to the JSS.</string>
+	<string>Downloads the latest Version from KeePassXC and extracts the package. Then, uploads to the JSS.</string>
 	<key>Identifier</key>
 	<string>com.github.behrtorinho.jss.KeePassXC</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
-		<string>Security</string>
+		<string>Productivity</string>
 		<key>GROUP_NAME</key>
 		<string>%NAME%-update-smart</string>
 		<key>GROUP_TEMPLATE</key>
@@ -46,7 +46,9 @@
 				<key>policy_template</key>
 				<string>%POLICY_TEMPLATE%</string>
 				<key>prod_name</key>
-				<string>%NAME%</string>>
+				<string>%NAME%</string>
+				<key>self_service_description</key>
+				<string>%SELF_SERVICE_DESCRIPTION%</string>
 			</dict>
 			<key>Processor</key>
 			<string>JSSImporter</string>
