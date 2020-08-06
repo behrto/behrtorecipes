@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of Devolutions Remote Desktop ManagerX.</string>
+	<string>Downloads the latest version of Devolutions Remote Desktop Manager.</string>
 	<key>Identifier</key>
 	<string>com.github.behrtorinho.download.DevolutionsRemoteDesktopManager</string>
 	<key>Input</key>
