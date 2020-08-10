@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>com.github.behrtorinho.jss.FileZilla-Autoupdate</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Productivity</string>
+		<string>update-automatic-%NAME%</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>~/Library/AutoPkg/RecipeRepos/com.github.behrtorinho.behrtorecipes/Templates/SmartGroupTemplate-autoupdate.xml</string>
+		<key>JSS_INVENTORY_NAME</key>
+		<string>iTerm.app</string>
+		<key>NAME</key>
+		<string>FileZilla</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Update Automaticly</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>~/Library/AutoPkg/RecipeRepos/com.github.behrtorinho.behrtorecipes/Templates/PolicyTemplate-autoupdate.xml</string>
+		<key>RELEASE</key>
+		<string>final</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.behrtorinho.jss.FileZilla</string>
+</dict>
+</plist>
