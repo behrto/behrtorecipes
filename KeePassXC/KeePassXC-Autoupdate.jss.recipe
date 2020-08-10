@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>com.github.behrtorinho.jss.KeePassXC-Autoupdate</string>
+	<key>Input</key>
+	<dict>
+		<key>ASSET_REGEX</key>
+		<string>KeePassXC-.*(?&lt;!Sierra)\.dmg</string>
+		<key>BUNDLE_ID</key>
+		<string>org.keepassxc.keepassxc</string>
+		<key>CATEGORY</key>
+		<string>Productivity</string>
+		<key>GROUP_NAME</key>
+		<string>update-automatic-%NAME%</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplate-autoupdate.xml</string>
+		<key>NAME</key>
+		<string>KeePassXC</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Update Automaticly</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate-autoupdate.xml</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.behrtorinho.jss.KeePassXC</string>
+</dict>
+</plist>
