@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>com.github.behrtorinho.jss.VLC-Autoupdate</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Digital Media</string>
+		<key>GROUP_NAME</key>
+		<string>update-automatic-%NAME%</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>~/Library/AutoPkg/RecipeRepos/com.github.behrtorinho.behrtorecipes/Templates/SmartGroupTemplate-autoupdate.xml</string>
+		<key>NAME</key>
+		<string>VLC</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Update Automaticly</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>~/Library/AutoPkg/RecipeRepos/com.github.behrtorinho.behrtorecipes/Templates/PolicyTemplate-autoupdate.xml</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jss-recipes.jss.VLC</string>
+</dict>
+</plist>
