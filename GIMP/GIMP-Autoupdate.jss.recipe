@@ -11,13 +11,13 @@
 		<key>GROUP_NAME</key>
 		<string>update-automatic-GIMP</string>
 		<key>GROUP_TEMPLATE</key>
-		<string>%RECIPE_DIR%/SmartGroupTemplate-autoupdate.xml</string>
+		<string>~/Library/AutoPkg/RecipeRepos/com.github.behrtorinho.behrtorecipes/Templates/SmartGroupTemplate-autoupdate.xml</string>
 		<key>NAME</key>
 		<string>GIMP</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Update Automaticly</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>%RECIPE_DIR%/PolicyTemplate-autoupdate.xml</string>
+		<string>~/Library/AutoPkg/RecipeRepos/com.github.behrtorinho.behrtorecipes/Templates/PolicyTemplate-autoupdate.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>GIMP is the GNU Image Manipulation Program. It is a freely distributed piece of software for such tasks as photo retouching, image composition and image authoring. It works on many operating systems, in many languages.</string>
 		<key>SELF_SERVICE_ICON</key>
