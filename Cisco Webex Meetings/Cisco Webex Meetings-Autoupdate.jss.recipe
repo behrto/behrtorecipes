@@ -19,7 +19,7 @@
 		<key>NAME</key>
 		<string>Cisco Webex Meetings</string>
 		<key>POLICY_CATEGORY</key>
-		<string>Update Automaticly</string>
+		<string>Update Automatic</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>~/Library/AutoPkg/RecipeRepos/com.github.behrtorinho.behrtorecipes/Templates/PolicyTemplate-autoupdate.xml</string>
 	</dict>
