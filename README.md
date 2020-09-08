@@ -8,5 +8,5 @@
 
 *neue Datei hinzufügen*
 * git add . oder File
-* git commit -m <Message>
-* git push.
+* git commit -m <Message.>
+* git push
