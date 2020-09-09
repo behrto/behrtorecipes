@@ -5,14 +5,14 @@
 	<key>Description</key>
 	<string>Downloads the current release version of FileZilla and makes a package.</string>
 	<key>Identifier</key>
-	<string>com.github.behrtorinho.pkg.FileZilla</string>
+	<string>com.github.behrto.pkg.FileZilla</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
 		<string>FileZilla</string>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.behrtorinho.download.FileZilla</string>
+	<string>com.github.behrto.download.FileZilla</string>
 	<key>Process</key>
 	<array>
 		<dict>

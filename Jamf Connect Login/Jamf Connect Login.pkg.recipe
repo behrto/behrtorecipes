@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Transfers the package from the pre-downloaded DMG.</string>
     <key>Identifier</key>
-    <string>com.github.behrtorinho.pkg.JamfConnectLogin</string>
+    <string>com.github.behrto.pkg.JamfConnectLogin</string>
     <key>Input</key>
     <dict>
         <key>APP_FILENAME</key>
@@ -18,7 +18,7 @@
     <key>MinimumVersion</key>
     <string>1.0.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.behrtorinho.download.JamfConnect</string>
+    <string>com.github.behrto.download.JamfConnect</string>
     <key>Process</key>
     <array>
         <dict>

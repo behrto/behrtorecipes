@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads the latest version FileZilla for Mac Client.</string>
     <key>Identifier</key>
-    <string>com.github.behrtorinho.download.FileZilla</string>
+    <string>com.github.behrto.download.FileZilla</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>com.github.behrtorinho.jss.KeePassXC-Autoupdate</string>
+	<string>com.github.behrto.jss.KeePassXC-Autoupdate</string>
 	<key>Input</key>
 	<dict>
 		<key>ASSET_REGEX</key>
@@ -24,6 +24,6 @@
 		<string>~/Library/AutoPkg/RecipeRepos/com.github.behrtorinho.behrtorecipes/Templates/PolicyTemplate-autoupdate.xml</string>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.behrtorinho.jss.KeePassXC</string>
+	<string>com.github.behrto.jss.KeePassXC</string>
 </dict>
 </plist>

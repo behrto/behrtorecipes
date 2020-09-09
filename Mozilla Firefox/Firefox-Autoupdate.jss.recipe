@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the latest Version from Firefox and extracts the package. Then, uploads to the JSS.</string>
 	<key>Identifier</key>
-	<string>com.github.behrtorinho.jss.Firefox-Autoupdate</string>
+	<string>com.github.behrto.jss.Firefox-Autoupdate</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>

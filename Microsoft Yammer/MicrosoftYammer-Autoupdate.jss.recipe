@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>com.github.behrtorinho.jss.MicrosoftYammer-Autoupdate</string>
+	<string>com.github.behrto.jss.MicrosoftYammer-Autoupdate</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>

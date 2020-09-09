@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the latest Version from Devolutions Remote Desktopmanager and extracts the package. Then, uploads to the JSS.</string>
 	<key>Identifier</key>
-	<string>com.github.behrtorinho.jss.DevolutionsRemoteDesktopManager</string>
+	<string>com.github.behrto.jss.DevolutionsRemoteDesktopManager</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
@@ -13,18 +13,18 @@
 		<key>GROUP_NAME</key>
 		<string>%NAME%-update-smart</string>
 		<key>GROUP_TEMPLATE</key>
-		<string>SmartGroupTemplate.xml</string>
+		<string>~/Library/AutoPkg/RecipeRepos/com.github.behrto.behrtorecipes/Templates/SmartGroupTemplate-autoupdate.xml</string>
 		<key>NAME</key>
 		<string>Remote Desktop Manager</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Testing</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>PolicyTemplate.xml</string>
+		<string>~/Library/AutoPkg/RecipeRepos/com.github.behrto.behrtorecipes/Templates/PolicyTemplate-autoupdate.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>Remote Desktop Manager</string>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.behrtorinho.pkg.DevolutionsRemoteDesktopManager</string>
+	<string>com.github.behrto.pkg.DevolutionsRemoteDesktopManager</string>
 	<key>Process</key>
 	<array>
 		<dict>

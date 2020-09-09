@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Devolutions Remote Desktop Manager.</string>
 	<key>Identifier</key>
-	<string>com.github.behrtorinho.download.DevolutionsRemoteDesktopManager</string>
+	<string>com.github.behrto.download.DevolutionsRemoteDesktopManager</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
