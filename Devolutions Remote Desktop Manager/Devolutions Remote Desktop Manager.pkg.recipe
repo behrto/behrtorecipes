@@ -12,8 +12,6 @@
 		<string>com.devolutions.remotedesktopmanager</string>
         <key>SOFTWARETITLE</key>
         <string>Remote Desktop Manager</string>
-        <key>VENDOR</key>
-        <string>Devolutions</string>
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.behrto.download.DevolutionsRemoteDesktopManager</string>
@@ -65,7 +63,7 @@
                     <key>pkg_request</key>
                     <dict>
                         <key>pkgname</key>
-                        <string>%VENDOR%_%SOFTWARETITLE%_%version%</string>
+                        <string>%SOFTWARETITLE%_%version%</string>
                         <key>version</key>
                         <string>%version%</string>
                         <key>id</key>
