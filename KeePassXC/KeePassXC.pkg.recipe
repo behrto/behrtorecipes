@@ -37,7 +37,7 @@
                 <key>Arguments</key>
                 <dict>
                     <key>source_path</key>
-                    <string>%pathname%/Yammer.app</string>
+                    <string>%pathname%/KeePassXC.app</string>
                     <key>destination_path</key>
                     <string>%pkgroot%/Applications/KeePassXC.app</string>
                     <key>purge_destination</key>
