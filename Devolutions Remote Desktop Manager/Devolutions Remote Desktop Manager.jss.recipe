@@ -20,8 +20,6 @@
 		<string>Testing</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate.xml</string>
-		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>Remote Desktop Manager</string>
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.behrto.pkg.DevolutionsRemoteDesktopManager</string>
