@@ -18,8 +18,6 @@
 		<string>Update Automatic</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>~/Library/AutoPkg/RecipeRepos/com.github.behrto.behrtorecipes/Templates/PolicyTemplate-autoupdate.xml</string>
-		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>Remote Desktop Manager</string>
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.behrto.jss.DevolutionsRemoteDesktopManager</string>
