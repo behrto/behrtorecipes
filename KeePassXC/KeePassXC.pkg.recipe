@@ -10,8 +10,8 @@
 	<dict>
 		<key>BUNDLE_ID</key>
 		<string>org.keepassxc.keepassxc</string>
-		<key>NAME</key>
-		<string>KeePassXC</string>
+        <key>SOFTWARETITLE</key>
+        <string>KeePassXC</string>
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.n8felton.download.KeePassXC</string>
@@ -67,7 +67,7 @@
                         <key>version</key>
                         <string>%version%</string>
                         <key>id</key>
-                        <string>org.keepassxc.keepassxc</string>
+                        <string>%BUNDLE_ID%</string>
                         <key>options</key>
                         <string>purge_ds_store</string>
                         <key>chown</key>
