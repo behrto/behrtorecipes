@@ -71,6 +71,7 @@
                         <key>options</key>
                         <string>purge_ds_store</string>
                         <key>chown</key>
+                        <key>chown</key>
                         <array>
                             <dict>
                                 <key>path</key>
@@ -78,9 +79,7 @@
                                 <key>user</key>
                                 <string>root</string>
                                 <key>group</key>
-                                <string>wheel</string>
-                                <key>mode</key>
-                                <string>0755</string>
+                                <string>admin</string>
                             </dict>
                         </array>
                     </dict>
