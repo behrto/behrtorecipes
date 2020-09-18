@@ -13,13 +13,13 @@
 		<key>GROUP_NAME</key>
 		<string>update-pilotgroup-%NAME%</string>
 		<key>GROUP_TEMPLATE</key>
-		<string>SmartGroupTemplate-pilotgroup.xml</string>
+		<string>~/Library/AutoPkg/RecipeRepos/com.github.behrto.behrtorecipes/Templates/SmartGroupTemplate-pilotgroup.xml</string>
 		<key>NAME</key>
 		<string>Jamf Connect Login</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Update Pilotgroup</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>PolicyTemplate-pilotgroup.xml</string>
+		<string>~/Library/AutoPkg/RecipeRepos/com.github.behrto.behrtorecipes/Templates/PolicyTemplate-pilotgroup.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>Jamf Connect Login is a product from Jamf to manage the Login of macOS Clients.</string>
 	</dict>
