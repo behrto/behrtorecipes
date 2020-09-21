@@ -11,7 +11,7 @@
 		<key>GROUP_NAME</key>
 		<string>update-automatic-%NAME%</string>
 		<key>GROUP_TEMPLATE</key>
-		<string>~/Library/AutoPkg/RecipeRepos/com.github.behrto.behrtorecipes/Templates/SmartGroupTemplate-autoupdate-regex.xml</string>
+		<string>~/Library/AutoPkg/RecipeRepos/com.github.behrto.behrtorecipes/Templates/SmartGroupTemplate-autoupdate.xml</string>
 		<key>NAME</key>
 		<string>Google Chrome</string>
 		<key>POLICY_CATEGORY</key>
@@ -20,6 +20,6 @@
 		<string>~/Library/AutoPkg/RecipeRepos/com.github.behrto.behrtorecipes/Templates/PolicyTemplate-autoupdate.xml</string>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.behrto.jss.Google Chrome</string>
+	<string>com.github.jss-recipes.jss.GoogleChrome</string>
 </dict>
 </plist>
