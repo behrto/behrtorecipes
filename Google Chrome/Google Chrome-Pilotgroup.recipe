@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>com.github.behrto.jss.Google Chrome-Pilotgroup</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Productivity</string>
+		<key>GROUP_NAME</key>
+		<string>update-pilotgroup-%NAME%</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>~/Library/AutoPkg/RecipeRepos/com.github.behrto.behrtorecipes/Templates/SmartGroupTemplate-pilotgroup-regex.xml</string>
+		<key>NAME</key>
+		<string>Google Chrome</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Update Pilotgroup</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>~/Library/AutoPkg/RecipeRepos/com.github.behrto.behrtorecipes/Templates/PolicyTemplate-pilotgroup.xml</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.behrto.jss.Google Chrome</string>
+</dict>
+</plist>
