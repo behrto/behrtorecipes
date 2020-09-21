@@ -24,8 +24,6 @@
 		<string>PolicyTemplate.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.</string>
-		<key>SELF_SERVICE_ICON</key>
-		<string>Google Chrome.png</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.4.0</string>
