@@ -20,6 +20,6 @@
 		<string>~/Library/AutoPkg/RecipeRepos/com.github.behrto.behrtorecipes/Templates/PolicyTemplate-autoupdate.xml</string>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>om.github.behrto.jss.VLC</string>
+	<string>com.github.behrto.jss.VLC</string>
 </dict>
 </plist>
