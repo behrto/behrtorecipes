@@ -18,23 +18,10 @@
 		<dict>
 			<key>Arguments</key>
 			<dict>
-				<key>re_pattern</key>
-				<string> Version ([\d\.]+)</string>
-				<key>result_output_var_name</key>
-				<string>version</string>
-				<key>url</key>
-				<string>https://remotedesktopmanager.com/de/home/downloadenterprise/</string>
-			</dict>
-			<key>Processor</key>
-			<string>URLTextSearcher</string>
-		</dict>
-		<dict>
-			<key>Arguments</key>
-			<dict>
 				<key>filename</key>
 				<string>%NAME%.dmg</string>
 				<key>url</key>
-				<string>https://cdn.devolutions.net/download/Mac/Devolutions.RemoteDesktopManager.Mac.%version%.dmg</string>
+				<string>https://www.xmind.net/xmind/download/</string>
 			</dict>
 			<key>Processor</key>
 			<string>URLDownloader</string>
