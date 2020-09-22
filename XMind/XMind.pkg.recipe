@@ -12,7 +12,7 @@
 		<string>XMind</string>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>Download-Parentrecipe</string>
+	<string>com.github.behrto.download.XMind</string>
 	<key>Process</key>
 	<array>
 		<dict>
