@@ -4,7 +4,7 @@
 <dict>
 	<key>Description</key>
 	<string>Downloads the latest version of APP.</string>
-	<key>Identifier</key>
+	<key>com.github.behrto.download.XMind</key>
 	<string>download Identifier</string>
 	<key>Input</key>
 	<dict>
