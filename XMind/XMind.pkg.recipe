@@ -4,8 +4,8 @@
 <dict>
 	<key>Description</key>
 	<string>Downloads the latest stable version of APP and creates a package.</string>
-	<key>com.github.behrto.pkg.XMind</key>
-	<string>org.xmind.cathy.application</string>
+	<key>Identifier</key>
+	<string>com.github.behrto.pkg.XMind</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
