@@ -19,13 +19,9 @@
 		<key>POLICY_TEMPLATE</key>
 		<string>~/Library/AutoPkg/RecipeRepos/com.github.behrto.behrtorecipes/Templates/PolicyTemplate-autoupdate.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>Citrix Workspace is the easy-to-install client software that provides access to your Citrix XenDesktop and XenApp installations.</string>
-		<key>SELF_SERVICE_ICON</key>
-		<string>%NAME%</string>
-		<key>SOFTWARETITLE</key>
-		<string>Workspace</string>
-		<key>VENDOR</key>
-		<string>Citrix</string>
+        <string />
+        <key>SELF_SERVICE_ICON</key>
+        <string>%NAME%.png</string>
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.behrto.jss.CitrixWorkspace</string>
