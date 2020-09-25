@@ -5,7 +5,7 @@
         <key>Description</key>
         <string>Downloads the latest version of Cisco Webex Meetings and imports it into your JSS.</string>
         <key>Identifier</key>
-        <string>com.github.dataJAR-recipes.jss.CiscoWebexMeetings</string>
+        <string>com.github.behrto.jss.CitrixWorkspace</string>
         <key>Input</key>
         <dict>
             <key>CATEGORY</key>
