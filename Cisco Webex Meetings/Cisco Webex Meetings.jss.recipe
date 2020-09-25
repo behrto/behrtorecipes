@@ -31,12 +31,13 @@
         <string>com.github.dataJAR-recipes.pkg.CiscoWebexMeetings</string>
         <key>Process</key>
         <array>
-            <dict>
-    	        <key>Processor</key>
-    	        <string>com.github.grahampugh.recipes.commonprocessors/VersionRegexGenerator</string>
-		    </dict>
-                <key>Arguments</key>
                 <dict>
+                    <key>Processor</key>
+                    <string>com.github.grahampugh.recipes.commonprocessors/VersionRegexGenerator</string>
+                </dict>
+                <dict>
+                    <key>Arguments</key>
+                    <dict>
                     <key>category</key>
                     <string>%CATEGORY%</string>
                     <key>groups</key>
