@@ -22,6 +22,10 @@
 		<string>Update Automatic</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>~/Library/AutoPkg/RecipeRepos/com.github.behrto.behrtorecipes/Templates/PolicyTemplate-autoupdate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>KeePassXC is a Tool to keep your passwords safe.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>KeePassXC.png</string>
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.behrto.jss.KeePassXC</string>
