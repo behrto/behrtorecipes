@@ -20,6 +20,10 @@
 		<string>Testing</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Revolutions Remote Desktop Manager is a Tool to connect to Remote machines easily.</string>
+        <key>SELF_SERVICE_ICON</key>
+        <string>%NAME%.png</string>
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.behrto.pkg.DevolutionsRemoteDesktopManager</string>
