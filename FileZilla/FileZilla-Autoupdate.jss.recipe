@@ -13,13 +13,17 @@
 		<key>GROUP_NAME</key>
 		<string>update-automatic-%NAME%</string>
 		<key>GROUP_TEMPLATE</key>
-		<string>~/Library/AutoPkg/RecipeRepos/com.github.behrto.behrtorecipes/Templates/SmartGroupTemplate-autoupdate.xml</string>
+		<string>~/Library/AutoPkg/RecipeRepos/com.github.behrto.behrtorecipes/Templates/SmartGroupTemplate-autoupdate-regex.xml</string>
 		<key>NAME</key>
 		<string>FileZilla</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Update Automatic</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>~/Library/AutoPkg/RecipeRepos/com.github.behrto.behrtorecipes/Templates/PolicyTemplate-autoupdate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>FileZilla is a free software, cross-platform FTP application, consisting of FileZilla Client and FileZilla Server.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>FileZilla.png</string>
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.behrto.jss.FileZilla</string>

@@ -20,11 +20,19 @@
 		<string>Testing</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>FileZilla is a free software, cross-platform FTP application, consisting of FileZilla Client and FileZilla Server.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>FileZilla.png</string>
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.behrto.pkg.FileZilla</string>
 	<key>Process</key>
 	<array>
+		<dict>
+    		<key>Processor</key>
+    		<string>com.github.grahampugh.recipes.commonprocessors/VersionRegexGenerator</string>
+		</dict>
 		<dict>
 			<key>Arguments</key>
 			<dict>
