@@ -25,50 +25,5 @@
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.behrto.jss.CiscoWebexMeetings</string>
-	<key>ParentRecipeTrustInfo</key>
-	<dict>
-		<key>non_core_processors</key>
-		<dict>
-			<key>com.github.grahampugh.recipes.commonprocessors/VersionRegexGenerator</key>
-			<dict>
-				<key>git_hash</key>
-				<string>bf827fbb82f0b58bd3dbe567ee5e00313fccf42e</string>
-				<key>path</key>
-				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.grahampugh-recipes/CommonProcessors/VersionRegexGenerator.py</string>
-				<key>sha256_hash</key>
-				<string>8437511a33a4bcbf1eec07e2a59a8a828e05b06c0a1aa0c637cc37f7f71f0393</string>
-			</dict>
-		</dict>
-		<key>parent_recipes</key>
-		<dict>
-			<key>com.github.behrto.jss.CiscoWebexMeetings</key>
-			<dict>
-				<key>git_hash</key>
-				<string>0e251b39bde5444097a283fd541e579a72b85de2</string>
-				<key>path</key>
-				<string>~/Library/AutoPkg/RecipeRepos/com.github.behrto.behrtorecipes/Cisco Webex Meetings/Cisco Webex Meetings.jss.recipe</string>
-				<key>sha256_hash</key>
-				<string>2c063b747de01aae832b3c9694731caaf1efb1e1a29cdef41f4909005a244b3c</string>
-			</dict>
-			<key>com.github.dataJAR-recipes.download.CiscoWebexMeetings</key>
-			<dict>
-				<key>git_hash</key>
-				<string>14fa3d6457ffb9958e6fa423fe213c6125826edf</string>
-				<key>path</key>
-				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.dataJAR-recipes/Cisco Webex Meetings/Cisco Webex Meetings.download.recipe</string>
-				<key>sha256_hash</key>
-				<string>e260346e953af89a13efbd7189c871971e704b2a2962769a896f7b2fc4e4bb82</string>
-			</dict>
-			<key>com.github.dataJAR-recipes.pkg.CiscoWebexMeetings</key>
-			<dict>
-				<key>git_hash</key>
-				<string>67ec49a5209ba8c707c2ca47833cba4ceb265235</string>
-				<key>path</key>
-				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.dataJAR-recipes/Cisco Webex Meetings/Cisco Webex Meetings.pkg.recipe</string>
-				<key>sha256_hash</key>
-				<string>acc87c485c8257315ea9412fdf66e2e9e5714805ae8c62623a2bd3ebaca82a05</string>
-			</dict>
-		</dict>
-	</dict>
 </dict>
 </plist>
