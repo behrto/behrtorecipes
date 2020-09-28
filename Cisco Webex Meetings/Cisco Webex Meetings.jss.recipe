@@ -21,7 +21,7 @@
             <key>POLICY_TEMPLATE</key>
             <string>PolicyTemplate.xml</string>
             <key>SELF_SERVICE_DESCRIPTION</key>
-            <string />
+		    <string>Webex Meetings is Cisco's cloud-based web and video conferencing service that enables global and virtual teams to collaborate on mobile devices and standards-based video systems in real time.</string>
             <key>SELF_SERVICE_ICON</key>
             <string>%NAME%.png</string>
         </dict>

@@ -6,12 +6,8 @@
 	<string>com.github.behrto.jss.CiscoWebexMeetings-Autoupdate</string>
 	<key>Input</key>
 	<dict>
-		<key>BUNDLE_ID</key>
-		<string>com.cisco.webexmeetingsapp</string>
 		<key>CATEGORY</key>
 		<string>Productivity</string>
-		<key>DOWNLOAD_URL</key>
-		<string>https://akamaicdn.webex.com/client/webexapp.dmg</string>
 		<key>GROUP_NAME</key>
 		<string>update-automatic-%NAME%</string>
 		<key>GROUP_TEMPLATE</key>
@@ -23,7 +19,7 @@
 		<key>POLICY_TEMPLATE</key>
 		<string>~/Library/AutoPkg/RecipeRepos/com.github.behrto.behrtorecipes/Templates/PolicyTemplate-autoupdate.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-        <string />
+		<string>Webex Meetings is Cisco's cloud-based web and video conferencing service that enables global and virtual teams to collaborate on mobile devices and standards-based video systems in real time.</string>
         <key>SELF_SERVICE_ICON</key>
         <string>%NAME%.png</string>
 	</dict>
