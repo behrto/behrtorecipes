@@ -11,7 +11,7 @@
 		<key>GROUP_NAME</key>
 		<string>update-automatic-%NAME%</string>
 		<key>GROUP_TEMPLATE</key>
-		<string>~/Library/AutoPkg/RecipeRepos/com.github.behrto.behrtorecipes/Templates/SmartGroupTemplate-autoupdate.xml</string>
+		<string>~/Library/AutoPkg/RecipeRepos/com.github.behrto.behrtorecipes/Templates/SmartGroupTemplate-autoupdate-regex.xml</string>
 		<key>NAME</key>
 		<string>Remote Desktop Manager</string>
 		<key>POLICY_CATEGORY</key>
