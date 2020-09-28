@@ -14,7 +14,7 @@
         <string>FileZilla</string>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.behrto.download.FilZilla</string>
+	<string>com.github.behrto.download.FileZilla</string>
 <key>Process</key>
         <array>
             <dict>
