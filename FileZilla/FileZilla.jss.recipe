@@ -26,7 +26,7 @@
 		<string>FileZilla.png</string>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.behrto.pkg.FileZilla</string>
+	<string>com.github.grahampugh.recipes.pkg.FileZilla</string>
 	<key>Process</key>
 	<array>
 		<dict>
