@@ -8,8 +8,6 @@
     <dict>
         <key>NAME</key>
         <string>FileZilla</string>
-        <key>bundle_id</key>
-        <string>org.filezilla-project.filezilla</string>
     </dict>
     <key>ParentRecipe</key>
     <string>com.github.behrto.download.FileZilla</string>
