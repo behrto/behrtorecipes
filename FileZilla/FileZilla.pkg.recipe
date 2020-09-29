@@ -53,8 +53,6 @@
                 <string>%pkgroot%/Applications/FileZilla.app/Contents/Info.plist</string>
                 <key>plist_version_key</key>
                 <string>CFBundleShortVersionString</string>
-				<key>bundle_id</key>
-                <string>CFBundleIdentifier</string>
             </dict>
         </dict>
         <dict>
@@ -69,7 +67,7 @@
                     <key>version</key>
                     <string>%version%</string>
                     <key>id</key>
-                    <string>%bundle_id%</string>
+                    <string>org.filezilla-project.filezilla</string>
                     <key>options</key>
                     <string>purge_ds_store</string>
                     <key>chown</key>
