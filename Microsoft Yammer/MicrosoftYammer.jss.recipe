@@ -24,7 +24,7 @@
 		<string>Microsoft Yammer.png</string>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.rtrouton.jss.microsoftyammer</string>
+	<string>com.github.rtrouton.pkg.microsoftyammer</string>
 	<key>Process</key>
 		<array>
 			<dict>
