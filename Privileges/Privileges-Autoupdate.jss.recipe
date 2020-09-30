@@ -13,7 +13,7 @@
 		<key>GROUP_NAME</key>
 		<string>update-automatic-%NAME%</string>
 		<key>GROUP_TEMPLATE</key>
-		<string>~/Library/AutoPkg/RecipeRepos/com.github.behrto.behrtorecipes/Templates/SmartGroupTemplate-autoupdate.xml</string>
+		<string>~/Library/AutoPkg/RecipeRepos/com.github.behrto.behrtorecipes/Templates/SmartGroupTemplate-autoupdate-regex.xml</string>
 		<key>ICON</key>
 		<string>Privileges.png</string>
 		<key>INSTALLERSCRIPTS</key>
@@ -24,8 +24,12 @@
 		<string>Update Automatic</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>~/Library/AutoPkg/RecipeRepos/com.github.behrto.behrtorecipes/Templates/PolicyTemplate-autoupdate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Privileges is an application for macOS which is designed to grant and remove admin rights from the logged-in user account.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>Privileges.png</string>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.rtrouton.jss.privileges</string>
+	<string>com.github.behrto.jss.Privileges</string>
 </dict>
 </plist>
