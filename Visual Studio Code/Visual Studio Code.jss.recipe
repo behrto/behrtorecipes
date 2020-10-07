@@ -33,7 +33,7 @@
 	<array>
 		<dict>
 			<key>Processor</key>
-			<string>com.github.grahampugh.recipes.commonprocessorsVersionRegexGenerator</string>
+			<string>com.github.grahampugh.recipes.commonprocessors/VersionRegexGenerator</string>
 		</dict>
 		<dict>
 			<key>Arguments</key>
