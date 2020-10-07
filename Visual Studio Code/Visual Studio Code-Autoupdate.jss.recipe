@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Downloads the latest Version from Visual Studio Code and extracts the package. Then, uploads to the JSS.</string>
+	<key>Identifier</key>
+	<key>Identifier</key>
+	<string>com.github.behrto.jss.VisualStudioCode-Autoupdate</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Productivity</string>
+		<key>GROUP_NAME</key>
+		<string>update-automatic-%NAME%</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplate-autoupdate-regex.xml</string>
+		<key>NAME</key>
+		<string>Visual Studio Code</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Update Automaticly</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate-autoupdate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Visual Studio Code is a source code editor which includes support for debugging, embedded Git control, syntax highlighting, intelligent code completion, snippets, and code refactoring.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>Visual Studio Code.png</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.behrto.jss.VisualStudioCode</string>
+</dict>
+</plist>
