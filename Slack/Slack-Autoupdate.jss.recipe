@@ -2,10 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Description</key>
-	<string>Downloads the latest version of Slack and makes a pkg of it Then, uploads to the JSS.</string>
 	<key>Identifier</key>
-	<string>com.github.behrto.jss.Slack-Autoupdate</string>
+	<string>com.github.behrto.jss.slack-Autoupdate</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
@@ -14,6 +12,8 @@
 		<string>update-automatic-%NAME%</string>
 		<key>GROUP_TEMPLATE</key>
 		<string>~/Library/AutoPkg/RecipeRepos/com.github.behrto.behrtorecipes/Templates/SmartGroupTemplate-autoupdate-regex.xml</string>
+		<key>JSS_INVENTORY_NAME</key>
+		<string>Slack.app</string>
 		<key>NAME</key>
 		<string>Slack</string>
 		<key>POLICY_CATEGORY</key>
@@ -21,11 +21,11 @@
 		<key>POLICY_TEMPLATE</key>
 		<string>~/Library/AutoPkg/RecipeRepos/com.github.behrto.behrtorecipes/Templates/PolicyTemplate-autoupdate.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>Slack is a platform for team communication: everything in one place, instantly searchable, available wherever you go.</string>
+		<string>Slack is a platform for team communication: everything in one place, instantly searchable, available wherever you go..</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>Slack.png</string>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.behrto.jss.Slack</string>
+	<string>com.github.behrto.jss.slack</string>
 </dict>
 </plist>
