@@ -12,8 +12,6 @@
 		<string>update-automatic-%NAME%</string>
 		<key>GROUP_TEMPLATE</key>
 		<string>~/Library/AutoPkg/RecipeRepos/com.github.behrto.behrtorecipes/Templates/SmartGroupTemplate-autoupdate-regex.xml</string>
-		<key>JSS_INVENTORY_NAME</key>
-		<string>Slack.app</string>
 		<key>NAME</key>
 		<string>Slack</string>
 		<key>POLICY_CATEGORY</key>
