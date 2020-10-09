@@ -19,7 +19,7 @@
 		<key>POLICY_CATEGORY</key>
 		<string>Update Automaticly</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>/Library/AutoPkg/RecipeRepos/com.github.behrto.behrtorecipes/Templates/PolicyTemplate-autoupdate.xml</string>
+		<string>~/Library/AutoPkg/RecipeRepos/com.github.behrto.behrtorecipes/Templates/PolicyTemplate-autoupdate.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>Visual Studio Code is a source code editor which includes support for debugging, embedded Git control, syntax highlighting, intelligent code completion, snippets, and code refactoring.</string>
 		<key>SELF_SERVICE_ICON</key>
