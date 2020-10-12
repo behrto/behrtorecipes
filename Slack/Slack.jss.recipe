@@ -28,7 +28,7 @@
 	<key>MinimumVersion</key>
 	<string>0.6.1</string>
 	<key>ParentRecipe</key>
-	<string>com.github.killahquam.pkg.slack</string>
+	<string>com.github.behrto.pkg.slack</string>
 	<key>Process</key>
 	<array>
 		<dict>
