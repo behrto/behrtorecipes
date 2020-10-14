@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>com.github.behrto.jss.slack-Autoupdate</string>
+	<string>com.github.behrto.jss.Slack-Autoupdate</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
@@ -24,6 +24,6 @@
 		<string>Slack.png</string>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.behrto.jss.slack</string>
+	<string>com.github.behrto.jss.Slack</string>
 </dict>
 </plist>

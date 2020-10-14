@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Slack and creates a package.</string>
 	<key>Identifier</key>
-	<string>com.github.behrto.pkg.slack</string>
+	<string>com.github.behrto.pkg.Slack</string>
 	<key>Input</key>
 	<dict>
         <key>BUNDLE_ID</key>
