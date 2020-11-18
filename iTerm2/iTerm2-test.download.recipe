@@ -6,7 +6,7 @@
     <key>Description</key>
     <string>Downloads the latest version of iTerm2 for Mac Client.</string>
     <key>Identifier</key>
-    <string>com.github.behrto.download.iTerm2</string>
+    <string>com.github.behrto.download-test.iTerm2</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
