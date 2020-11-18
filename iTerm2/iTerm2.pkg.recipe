@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
     <key>Identifier</key>
-    <string>com.github.behrto.pkg.APP</string>
+    <string>com.github.behrto.pkg.iTerm2</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>APP</string>
+        <string>iTerm2</string>
     </dict>
     <key>ParentRecipe</key>
-    <string>com.github.behrto.download.APP</string>
+    <string>com.github.behrto.download.iTerm2</string>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>Process</key>
@@ -48,7 +48,7 @@
 			<key>Arguments</key>
 			<dict>
 				<key>info_path</key>
-				<string>%pkgroot%/Applications/APP.app</string>
+				<string>%pkgroot%/Applications/%NAME%.app</string>
 				<key>plist_keys</key>
 				<dict>
 					<key>CFBundleIdentifier</key>
@@ -66,7 +66,7 @@
             <key>Arguments</key>
             <dict>
                 <key>input_plist_path</key>
-                <string>%pkgroot%/Applications/APP.app/Contents/Info.plist</string>
+                <string>%pkgroot%/Applications/%NAME%.app/Contents/Info.plist</string>
                 <key>plist_version_key</key>
                 <string>CFBundleShortVersionString</string>
             </dict>
