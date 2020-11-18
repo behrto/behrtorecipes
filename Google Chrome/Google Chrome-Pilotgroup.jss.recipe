@@ -11,7 +11,7 @@
 		<key>GROUP_NAME</key>
 		<string>update-pilotgroup-%NAME%</string>
 		<key>GROUP_TEMPLATE</key>
-		<string>~/Library/AutoPkg/RecipeRepos/com.github.behrto.behrtorecipes/Templates/SmartGroupTemplate-pilotgroup-regex-long1.xml</string>
+		<string>~/Library/AutoPkg/RecipeRepos/com.github.behrto.behrtorecipes/Templates/SmartGroupTemplate-pilotgroup-regex-long.xml</string>
 		<key>NAME</key>
 		<string>Google Chrome</string>
 		<key>POLICY_CATEGORY</key>
