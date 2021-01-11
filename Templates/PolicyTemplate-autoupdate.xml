@@ -2,7 +2,7 @@
     <general>
         <name>Auto Update %PROD_NAME%</name>
         <enabled>true</enabled>
-        <frequency>Once per Computer</frequency>
+        <frequency>Ongoing</frequency>
         <category>
             <name>%POLICY_CATEGORY%</name>
         </category>
