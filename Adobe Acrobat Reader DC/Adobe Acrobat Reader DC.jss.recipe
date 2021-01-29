@@ -28,7 +28,7 @@
 	<key>MinimumVersion</key>
 	<string>0.4.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.novaksam.pkg.AdobeAcrobatReaderDCUpdates</string>
+	<string>com.github.behrto.pkg.AdobeAcrobatReaderDCUpdates</string>
 	<key>Process</key>
 	<array>
 		<dict>
