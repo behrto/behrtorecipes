@@ -6,8 +6,6 @@
 	<string>com.github.behrto.jss.KeePassXC-Autoupdate</string>
 	<key>Input</key>
 	<dict>
-		<key>ASSET_REGEX</key>
-		<string>KeePassXC-.*(?&lt;!Sierra)\.dmg</string>
 		<key>BUNDLE_ID</key>
 		<string>org.keepassxc.keepassxc</string>
 		<key>CATEGORY</key>
