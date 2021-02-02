@@ -18,6 +18,8 @@
 		<string>Update Automatic</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>~/Library/AutoPkg/RecipeRepos/com.github.behrto.behrtorecipes/Templates/PolicyTemplate-autoupdate.xml</string>
+		<key>JSS_INVENTORY_NAME</key>
+		<string>zoom.us.app</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
         <string />
         <key>SELF_SERVICE_ICON</key>
