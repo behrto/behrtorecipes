@@ -18,6 +18,8 @@
 		<string>Update Pilotgroup</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>~/Library/AutoPkg/RecipeRepos/com.github.behrto.behrtorecipes/Templates/PolicyTemplate-pilotgroup.xml</string>
+		<key>JSS_INVENTORY_NAME</key>
+		<string>zoom.us.app</string>
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.behrto.jss.Zoom</string>
