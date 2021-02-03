@@ -12,7 +12,7 @@
 		<string>us.zoom.xos</string>
 		<key>NAME</key>
 		<string>Zoom</string>
-		<key>INSTALLERSCRIPTS</key>
+		<key>INSTALLSCRIPTS</key>
 		<string>/Users/Tom.Behrendt/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/Zoom/scripts</string>
 	</dict>
 	<key>MinimumVersion</key>
@@ -63,7 +63,7 @@
 				<key>input_plist_path</key>
 				<string>%RECIPE_CACHE_DIR%/%NAME%/Applications/zoom.us.app/Contents/Info.plist</string>
 				<key>plist_version_key</key>
-				<string>CFBundleShortVersionStrin</string>
+				<string>CFBundleVersion</string>
 			</dict>
 			<key>Processor</key>
 			<string>Versioner</string>
@@ -91,7 +91,7 @@
 					<key>pkgname</key>
 					<string>%NAME%-%version%</string>
 					<key>scripts</key>
-					<string>%INSTALLERSCRIPTS%</string>
+					<string>%INSTALLSCRIPTS%</string>
 					<key>version</key>
 					<string>%version%</string>
 				</dict>
