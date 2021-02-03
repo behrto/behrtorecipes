@@ -12,8 +12,8 @@
 		<string>us.zoom.xos</string>
 		<key>NAME</key>
 		<string>Zoom</string>
-		<key>INSTALLERSCRIPTS</key>
-		<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/Zoom/scripts/</string>
+		<key>%INSTALLERSCRIPTS%</key>
+		<string>/Users/Tom.Behrendt/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/Zoom/scripts</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.1</string>
