@@ -89,7 +89,7 @@
 					<key>options</key>
 					<string>purge_ds_store</string>
 					<key>pkgname</key>
-					<string>%NAME%-%VERSION_FOR_NAME%</string>
+					<string>%NAME%-CFBundleVersion</string>
 					<key>scripts</key>
 					<string>%INSTALLSCRIPTS%</string>
 					<key>version</key>
