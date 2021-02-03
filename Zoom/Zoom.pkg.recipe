@@ -12,6 +12,8 @@
 		<string>us.zoom.xos</string>
 		<key>NAME</key>
 		<string>Zoom</string>
+        <key>SOFTWARETITLE</key>
+		<string>Zoom</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.1</string>
