@@ -12,6 +12,8 @@
 		<string>us.zoom.xos</string>
 		<key>NAME</key>
 		<string>Zoom</string>
+		<key>SOFTWARETITLE</key>
+        <string>Zoom</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.1</string>
@@ -87,7 +89,7 @@
 					<key>options</key>
 					<string>purge_ds_store</string>
 					<key>pkgname</key>
-					<string>%NAME%-%version%</string>
+					<string>%SOFTWARETITLE%_%version%</string>
 					<key>version</key>
 					<string>%version%</string>
 				</dict>
