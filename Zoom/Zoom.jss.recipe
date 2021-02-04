@@ -40,6 +40,17 @@
 		<dict>
 			<key>Arguments</key>
 			<dict>
+				<key>ea_name</key>
+				<string>%EXTENSION_ATTRIBUTE_NAME%</string>
+				<key>ea_script_path</key>
+				<string>%EXTENSION_ATTRIBUTE_SCRIPT%</string>
+			</dict>
+			<key>Processor</key>
+			<string>com.github.grahampugh.jamf-upload.processors/JamfExtensionAttributeUploader</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
 				<key>category</key>
 				<string>%CATEGORY%</string>
 				<key>groups</key>
