@@ -14,8 +14,6 @@
 		<string>Zoom</string>
 		<key>INSTALLSCRIPTS</key>
 		<string>/Users/Tom.Behrendt/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/Zoom/scripts</string>
-		<key>VERSION_FOR_NAME</key>
-		<string>CFBundleVersion</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.1</string>
@@ -24,6 +22,8 @@
 	<key>Process</key>
 	<array>
 		<dict>
+			<key>Processor</key>
+			<string>PkgRootCreator</string>
 			<key>Arguments</key>
 			<dict>
 				<key>pkgdirs</key>
@@ -34,10 +34,10 @@
 				<key>pkgroot</key>
 				<string>%RECIPE_CACHE_DIR%/%NAME%</string>
 			</dict>
-			<key>Processor</key>
-			<string>PkgRootCreator</string>
 		</dict>
 		<dict>
+			<key>Processor</key>
+			<string>FlatPkgUnpacker</string>
 			<key>Arguments</key>
 			<dict>
 				<key>destination_path</key>
@@ -45,10 +45,10 @@
 				<key>flat_pkg_path</key>
 				<string>%pathname%</string>
 			</dict>
-			<key>Processor</key>
-			<string>FlatPkgUnpacker</string>
 		</dict>
 		<dict>
+			<key>Processor</key>
+			<string>PkgPayloadUnpacker</string>
 			<key>Arguments</key>
 			<dict>
 				<key>destination_path</key>
@@ -56,19 +56,21 @@
 				<key>pkg_payload_path</key>
 				<string>%RECIPE_CACHE_DIR%/expanded/zoomus.pkg/Payload</string>
 			</dict>
-			<key>Processor</key>
-			<string>PkgPayloadUnpacker</string>
 		</dict>
 		<dict>
+			<key>Processor</key>
+			<string>Versioner</string>
 			<key>Arguments</key>
 			<dict>
 				<key>input_plist_path</key>
 				<string>%RECIPE_CACHE_DIR%/%NAME%/Applications/zoom.us.app/Contents/Info.plist</string>
+				<key>plist_version_key</key>
+				<string>CFBundleVersion</string>
 			</dict>
-			<key>Processor</key>
-			<string>Versioner</string>
 		</dict>
 		<dict>
+			<key>Processor</key>
+			<string>PkgCreator</string>
 			<key>Arguments</key>
 			<dict>
 				<key>pkg_request</key>
@@ -89,17 +91,17 @@
 					<key>options</key>
 					<string>purge_ds_store</string>
 					<key>pkgname</key>
-					<string>%NAME%-03022021</string>
+					<string>%NAME%-%version%</string>
 					<key>scripts</key>
 					<string>%INSTALLSCRIPTS%</string>
 					<key>version</key>
 					<string>%version%</string>
 				</dict>
 			</dict>
-			<key>Processor</key>
-			<string>PkgCreator</string>
 		</dict>
 		<dict>
+			<key>Processor</key>
+			<string>PathDeleter</string>
 			<key>Arguments</key>
 			<dict>
 				<key>path_list</key>
@@ -107,8 +109,6 @@
 					<string>%RECIPE_CACHE_DIR%/expanded</string>
 				</array>
 			</dict>
-			<key>Processor</key>
-			<string>PathDeleter</string>
 		</dict>
 	</array>
 </dict>
