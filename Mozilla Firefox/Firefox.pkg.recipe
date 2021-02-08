@@ -5,7 +5,7 @@
       <key>Description</key>
       <string>Downloads the current release version of the Mozilla Firefox installer package and renames the installer package.</string>
       <key>Identifier</key>
-      <string>com.github.rtrouton.pkg.Firefox</string>
+      <string>com.github.behrto.pkg.Firefox</string>
       <key>Input</key>
       <dict>
          <key>NAME</key>
@@ -38,7 +38,7 @@
             <key>Arguments</key>
             <dict>
                 <key>pkg_payload_path</key>
-                <string>%RECIPE_CACHE_DIR%/unpack/Firefox.pkg/Payload</string>
+                <string>%RECIPE_CACHE_DIR%/unpack/Firefox.tmp1.pkg/Payload</string>
                 <key>destination_path</key>
                 <string>%RECIPE_CACHE_DIR%/payload</string>
             </dict>
