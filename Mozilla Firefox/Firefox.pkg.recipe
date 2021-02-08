@@ -14,6 +14,8 @@
          <string>Mozilla</string>
          <key>SOFTWARETITLE</key>
          <string>Firefox</string>
+         <key>LOCALE</key>
+		   <string>de</string>
       </dict>
       <key>MinimumVersion</key>
       <string>1.0.0</string>
