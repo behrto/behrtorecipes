@@ -61,7 +61,7 @@
 			<key>Arguments</key>
 			<dict>
 				<key>input_plist_path</key>
-				<string>%pkgroot%/Applications/Applications/zoom.us.app/Contents/Info.plist</string>
+				<string>%pkgroot%/Applications/zoom.us.app/Contents/Info.plist</string>
 				<key>plist_version_key</key>
 				<string>CFBundleShortVersionString</string>
 			</dict>
