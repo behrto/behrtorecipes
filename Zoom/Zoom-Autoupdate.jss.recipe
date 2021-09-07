@@ -8,10 +8,8 @@
 	<dict>
 		<key>CATEGORY</key>
 		<string>Productivity</string>
-		<key>EXTENSION_ATTRIBUTE_NAME</key>
-		<string>%NAME% Version</string>
-		<key>EXTENSION_ATTRIBUTE_SCRIPT</key>
-		<string>~/Library/AutoPkg/RecipeRepos/com.github.behrto.behrtorecipes/Templates/ExtensionAttribute-CFBundleVersion.sh</string>
+		<key>EXTENSION_ATTRIBUTE_XML</key>
+		<string>~/Library/AutoPkg/RecipeRepos/com.github.behrto.behrtorecipes/Templates/CFBundleVersionExtensionAttribute.xml</string>
 		<key>GROUP_NAME</key>
 		<string>update-automatic-%NAME%</string>
 		<key>GROUP_TEMPLATE</key>
