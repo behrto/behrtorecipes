@@ -13,6 +13,7 @@ if [ -f "/Applications/%JSS_INVENTORY_NAME%/Contents/Info.plist" ]; then
 elif [ -f "/Users/$currentuser/Applications/%JSS_INVENTORY_NAME%/Contents/Info.plist" ]; then
     CFBundleVersion=$(defaults read "/Users/$currentuser/Applications/%JSS_INVENTORY_NAME%/Contents/Info.plist" CFBundleVersion)
 fi
+echo "<result>"$CFBundleVersion"</result>"
         </script>
 	</input_type>
 	<inventory_display>Extension Attributes</inventory_display>
