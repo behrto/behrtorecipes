@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version and makes a pkg. Then, uploads the package to the Jamf Pro Server and creates a Policy and Smart Group.</string>
 	<key>Identifier</key>
-	<string>com.github.behrto.jss.Citrix Workspace-Pilotgroup</string>
+	<string>com.github.behrto.jss.CitrixWorkspace-Pilotgroup</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
