@@ -32,7 +32,7 @@
 	<key>MinimumVersion</key>
 	<string>2.3</string>
 	<key>ParentRecipe</key>
-	<string>com.github.*</string>
+	<string>com.github.rtrouton.pkg.citrixworkspace</string>
 	<key>Process</key>
 	<array>
 		<dict>
