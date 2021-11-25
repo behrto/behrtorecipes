@@ -7,6 +7,7 @@
 		<category>
 			<name>%POLICY_CATEGORY%</name>
 		</category>
+		<trigger_checkin>true</trigger_checkin>
 	</general>
 	<scope>
 		<computer_groups>
