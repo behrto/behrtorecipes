@@ -19,7 +19,7 @@
 		<key>NAME</key>
 		<string>Citrix Workspace</string>
 		<key>POLICY_CATEGORY</key>
-		<string>Update Pilotgroup %NAME%</string>
+		<string>Update Pilotgroup</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>Policy-update-automatic.xml</string>
 		<key>POLICY_NAME</key>
