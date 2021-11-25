@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version and makes a pkg. Then, uploads the package to the Jamf Pro Server and creates a Policy and Smart Group.</string>
+	<string>Downloads the latest version and makes a pkg. Then, uploads the package to the Jamf Pro Server and creates a Self Service Policy and Smart Group.</string>
 	<key>Identifier</key>
 	<string>com.github.behrto.jss.CitrixWorkspace-Pilotgroup</string>
 	<key>Input</key>
@@ -32,7 +32,7 @@
 	<key>MinimumVersion</key>
 	<string>2.3</string>
 	<key>ParentRecipe</key>
-	<string>com.github.rtrouton.pkg.citrixworkspace</string>
+	<string>com.github.*</string>
 	<key>Process</key>
 	<array>
 		<dict>
@@ -40,7 +40,7 @@
             <string>com.github.grahampugh.jamf-upload.processors/JamfCategoryUploader</string>
             <key>Arguments</key>
             <dict>
-                <key>category</key>
+                <key>category_name</key>
                 <string>%CATEGORY%</string>
             </dict>
         </dict>
@@ -68,8 +68,6 @@
             <dict>
                 <key>computergroup_template</key>
                 <string>%GROUP_TEMPLATE%</string>
-            </dict>
-			<dict>
                 <key>computergroup_name</key>
                 <string>%GROUP_NAME%</string>
             </dict>
@@ -81,8 +79,6 @@
             <dict>
                 <key>policy_template</key>
                 <string>%POLICY_TEMPLATE%</string>
-            </dict>
-			<dict>
                 <key>policy_name</key>
                 <string>%POLICY_NAME%</string>
             </dict>
