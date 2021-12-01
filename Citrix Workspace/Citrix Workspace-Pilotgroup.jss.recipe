@@ -24,8 +24,6 @@
 		<string>Policy-update-automatic.xml</string>
 		<key>POLICY_NAME</key>
 		<string>Update Pilotgroup %NAME%</string>
-		<key>POLICY_RUN_COMMAND</key>
-		<string>echo 'Update von %NAME% abgeschlossen'</string>
 		<key>UPDATE_PREDICATE</key>
 		<string>pkg_uploaded == False</string>
 	</dict>
