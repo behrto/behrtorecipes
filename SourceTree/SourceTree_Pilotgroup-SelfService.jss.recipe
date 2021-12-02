@@ -19,7 +19,7 @@
 		<key>NAME</key>
 		<string>SourceTree</string>
 		<key>POLICY_CATEGORY</key>
-		<string>Update Pilotgroup %NAME%</string>
+		<string>Update Automatic</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>Policy-update-automatic-selfservice.xml</string>
 		<key>POLICY_NAME</key>
