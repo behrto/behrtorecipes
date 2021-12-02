@@ -3,32 +3,50 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version and makes a pkg. Then, uploads the package to the Jamf Pro Server and creates a Smart Group.</string>
+	<string>Downloads the latest version and makes a pkg. Then, uploads the package to the Jamf Pro Server and creates a Self Service Policy and Smart Group.</string>
 	<key>Identifier</key>
-	<string>com.github.behrto.jss.VLC</string>
+	<string>com.github.behrto.jss.SourceTree_Pilotgroup</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
-		<string>Digital Media</string>
+		<string>Computer Science</string>
 		<key>GROUP_NAME</key>
-		<string>update-automatic-%NAME%</string>
+		<string>update-pilotgroup-%NAME%</string>
 		<key>GROUP_TEMPLATE</key>
-		<string>SmartGroup-update-automatic-regex.xml</string>
+		<string>SmartGroup-update-pilotgroup-automatic-regex.xml</string>
+		<key>TESTING_GROUP_NAME</key>
+		<string>Pilotgroup SourceTree</string>
 		<key>NAME</key>
-		<string>VLC</string>
+		<string>SourceTree</string>
 		<key>POLICY_CATEGORY</key>
-		<string>Update Automatic</string>
+		<string>Update Pilotgroup %NAME%</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>Policy-update-automatic.xml</string>
+		<string>Policy-update-automatic-selfservice.xml</string>
 		<key>POLICY_NAME</key>
-		<string>Auto Update %NAME%</string>
+		<string>Update Pilotgroup %NAME%</string>
+		<key>POLICY_RUN_COMMAND</key>
+		<string>echo 'Update von %NAME% abgeschlossen'</string>
+		<key>SCRIPT_NAME</key>
+		<string>Scriptname.sh</string>
+		<key>SCRIPT_PRIORITY</key>
+		<string>After</string>
+		<key>SELF_SERVICE_DISPLAY_NAME</key>
+		<string>Update %NAME%</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>DESCRIPTION</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>%NAME%.png</string>
+		<key>INSTALL_BUTTON_TEXT</key>
+		<string>Update</string>
+		<key>INSTALL_BUTTON_TEXT</key>
+		<string>Update</string>
 		<key>UPDATE_PREDICATE</key>
 		<string>pkg_uploaded == False</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>2.3</string>
 	<key>ParentRecipe</key>
-	<string>com.github.behrto.pkg.VLC</string>
+	<string>io.github.hjuutilainen.pkg.SourceTree</string>
 	<key>Process</key>
 	<array>
 		<dict>
@@ -69,7 +87,7 @@
 				<key>replace_group</key>
                 <string>True</string>
             </dict>
-		</dict>
+        </dict>
 		<dict>
             <key>Processor</key>
             <string>com.github.grahampugh.jamf-upload.processors/JamfPolicyUploader</string>
@@ -81,6 +99,8 @@
                 <string>%POLICY_NAME%</string>
 				<key>replace_policy</key>
                 <string>True</string>
+                <key>icon</key>
+                <string>%SELF_SERVICE_ICON%</string>
             </dict>
         </dict>
 	</array>
