@@ -67,6 +67,8 @@
                 <key>computergroup_name</key>
                 <string>%GROUP_NAME%</string>
             </dict>
+		</dict>
+		<dict>
             <key>Processor</key>
             <string>com.github.grahampugh.jamf-upload.processors/JamfPolicyUploader</string>
             <key>Arguments</key>
