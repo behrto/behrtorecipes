@@ -38,7 +38,7 @@
 		<string>%NAME%.png</string>
 		<key>INSTALL_BUTTON_TEXT</key>
 		<string>Update</string>
-		<key>INSTALL_BUTTON_TEXT</key>
+		<key>REINSTALL_BUTTON_TEXT</key>
 		<string>Update</string>
 		<key>UPDATE_PREDICATE</key>
 		<string>pkg_uploaded == False</string>
