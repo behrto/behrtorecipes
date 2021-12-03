@@ -26,10 +26,6 @@
 		<string>Update Pilotgroup %NAME%</string>
 		<key>POLICY_RUN_COMMAND</key>
 		<string>echo 'Update von %NAME% abgeschlossen'</string>
-		<key>SCRIPT_NAME</key>
-		<string>Scriptname.sh</string>
-		<key>SCRIPT_PRIORITY</key>
-		<string>After</string>
 		<key>SELF_SERVICE_DISPLAY_NAME</key>
 		<string>Update %NAME%</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
