@@ -68,6 +68,8 @@
                 <string>%GROUP_TEMPLATE%</string>
                 <key>computergroup_name</key>
                 <string>%GROUP_NAME%</string>
+				<key>replace_group</key>
+                <string>True</string>
             </dict>
         </dict>
 		<dict>
@@ -79,6 +81,8 @@
                 <string>%POLICY_TEMPLATE%</string>
                 <key>policy_name</key>
                 <string>%POLICY_NAME%</string>
+				<key>replace_policy</key>
+                <string>True</string>
             </dict>
         </dict>
 	</array>
