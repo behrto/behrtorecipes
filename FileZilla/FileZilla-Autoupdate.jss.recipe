@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest Version from FileZilla and extracts the package. Then, uploads to the JSS.</string>
+	<string>Downloads the latest version and makes a pkg. Then, uploads the package to the Jamf Pro Server and creates a Smart Group.</string>
 	<key>Identifier</key>
 	<string>com.github.behrto.jss.FileZilla-Autoupdate</string>
 	<key>Input</key>
@@ -13,19 +13,76 @@
 		<key>GROUP_NAME</key>
 		<string>update-automatic-%NAME%</string>
 		<key>GROUP_TEMPLATE</key>
-		<string>~/Library/AutoPkg/RecipeRepos/com.github.behrto.behrtorecipes/Templates/SmartGroupTemplate-autoupdate-regex.xml</string>
+		<string>SmartGroup-update-automatic-regex.xml</string>
 		<key>NAME</key>
 		<string>FileZilla</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Update Automatic</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>~/Library/AutoPkg/RecipeRepos/com.github.behrto.behrtorecipes/Templates/PolicyTemplate-autoupdate.xml</string>
-		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>FileZilla is a free software, cross-platform FTP application, consisting of FileZilla Client and FileZilla Server.</string>
-		<key>SELF_SERVICE_ICON</key>
-		<string>FileZilla.png</string>
+		<string>Policy-update-automatic.xml</string>
+		<key>POLICY_NAME</key>
+		<string>Auto Update %NAME%</string>
+		<key>UPDATE_PREDICATE</key>
+		<string>pkg_uploaded == False</string>
 	</dict>
+	<key>MinimumVersion</key>
+	<string>2.3</string>
 	<key>ParentRecipe</key>
-	<string>com.github.behrto.jss.FileZilla</string>
+	<string>com.github.behrto.pkg.FileZilla</string>
+	<key>Process</key>
+	<array>
+		<dict>
+            <key>Processor</key>
+            <string>com.github.grahampugh.jamf-upload.processors/JamfCategoryUploader</string>
+            <key>Arguments</key>
+            <dict>
+                <key>category_name</key>
+                <string>%CATEGORY%</string>
+            </dict>
+        </dict>
+		<dict>
+			<key>Processor</key>
+			<string>com.github.grahampugh.jamf-upload.processors/JamfPackageUploader</string>
+		</dict>
+		<dict>
+            <key>Processor</key>
+            <string>StopProcessingIf</string>
+            <key>Arguments</key>
+            <dict>
+                <key>predicate</key>
+                <string>%UPDATE_PREDICATE%</string>
+            </dict>
+        </dict>
+		<dict>
+			<key>Processor</key>
+			<string>com.github.grahampugh.recipes.commonprocessors/VersionRegexGenerator</string>
+		</dict>
+		<dict>
+            <key>Processor</key>
+            <string>com.github.grahampugh.jamf-upload.processors/JamfComputerGroupUploader</string>
+            <key>Arguments</key>
+            <dict>
+                <key>computergroup_template</key>
+                <string>%GROUP_TEMPLATE%</string>
+                <key>computergroup_name</key>
+                <string>%GROUP_NAME%</string>
+				<key>replace_group</key>
+                <string>True</string>
+            </dict>
+		</dict>
+		<dict>
+            <key>Processor</key>
+            <string>com.github.grahampugh.jamf-upload.processors/JamfPolicyUploader</string>
+            <key>Arguments</key>
+            <dict>
+                <key>policy_template</key>
+                <string>%POLICY_TEMPLATE%</string>
+                <key>policy_name</key>
+                <string>%POLICY_NAME%</string>
+				<key>replace_policy</key>
+                <string>True</string>
+            </dict>
+        </dict>
+	</array>
 </dict>
 </plist>
