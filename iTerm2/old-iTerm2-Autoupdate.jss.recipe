@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>com.github.behrto.jss.iTerm2-Autoupdate</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Productivity</string>
+		<key>Comment</key>
+		<string>Note: PlistReader without variable injection in AutoPkg requires setting "version" input key to an empty string, as below.</string>
+		<key>GROUP_NAME</key>
+		<string>update-automatic-%NAME%</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>~/Library/AutoPkg/RecipeRepos/com.github.behrto.behrtorecipes/Templates/SmartGroupTemplate-autoupdate-regex.xml</string>
+		<key>JSS_INVENTORY_NAME</key>
+		<string>iTerm.app</string>
+		<key>NAME</key>
+		<string>iTerm2</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Update Automatic</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>~/Library/AutoPkg/RecipeRepos/com.github.behrto.behrtorecipes/Templates/PolicyTemplate-autoupdate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>iTerm2 is a replacement for Terminal.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>iTerm2.png</string>
+		<key>RELEASE</key>
+		<string>final</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.behrto.jss.iTerm2</string>
+</dict>
+</plist>
