@@ -45,6 +45,11 @@
 		<dict>
 			<key>Processor</key>
 			<string>com.github.grahampugh.jamf-upload.processors/JamfPackageUploader</string>
+			<key>Arguments</key>
+            <dict>
+                <key>pkg_category</key>
+                <string>%CATEGORY%</string>
+            </dict>
 		</dict>
 		<dict>
             <key>Processor</key>
