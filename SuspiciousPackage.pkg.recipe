@@ -9,7 +9,7 @@
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
-		<string>Productivity</string>
+		<string>Utility</string>
 		<key>NAME</key>
 		<string>SuspiciousPackage</string>
 		<key>UPDATE_PREDICATE</key>
@@ -35,7 +35,7 @@
 			<string>com.github.grahampugh.jamf-upload.processors/JamfPackageUploader</string>
 			<key>Arguments</key>
             <dict>
-                <key>category_name</key>
+                <key>pkg_category</key>
                 <string>%CATEGORY%</string>
             </dict>
 		</dict>
