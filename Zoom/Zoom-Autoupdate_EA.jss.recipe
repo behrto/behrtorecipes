@@ -53,6 +53,7 @@
                 <string>%EXTENSION_ATTRIBUTE_SCRIPT%</string>
                 <key>ea_name</key>
                 <string>%EXTENSION_ATTRIBUTE_NAME%</string>
+            </dict>
         </dict>
 		<dict>
 			<key>Processor</key>
