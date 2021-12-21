@@ -19,7 +19,7 @@
 		<key>EXTENSION_ATTRIBUTE_NAME</key>
 		<string>%NAME% Version Test</string>
 		<key>EXTENSION_ATTRIBUTE_SCRIPT</key>
-		<string>NAME-ExtensionAttribute-CFBundleVersion.sh MUSS IM VORHINEIN ANGELEGT WERDEN!</string>
+		<string>Zoom-ExtensionAttribute-CFBundleVersion.sh</string>
 		<key>NAME</key>
 		<string>Zoom</string>
         <key>JSS_INVENTORY_NAME</key>
