@@ -17,7 +17,7 @@
         <key>TESTING_GROUP_NAME</key>
 		<string>Pilotgroup Zoom</string>
 		<key>EXTENSION_ATTRIBUTE_NAME</key>
-		<string>%NAME% Version</string>
+		<string>%NAME% Version-Test</string>
 		<key>EXTENSION_ATTRIBUTE_SCRIPT</key>
 		<string>Zoom-ExtensionAttribute-CFBundleVersion.sh</string>
 		<key>NAME</key>
