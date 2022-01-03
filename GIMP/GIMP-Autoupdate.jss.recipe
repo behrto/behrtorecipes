@@ -16,6 +16,8 @@
 		<string>SmartGroup-update-automatic-regex.xml</string>
 		<key>NAME</key>
 		<string>GIMP</string>
+		<key>JSS_INVENTORY_NAME</key>
+		<string>GIMP-2.10.app</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Update Automatic</string>
 		<key>POLICY_TEMPLATE</key>
