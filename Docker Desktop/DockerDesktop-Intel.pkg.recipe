@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Docker Desktop and creates a package. See the download recipe description for information about using the PLATFORM_ARCH input variable to download the Intel/Apple Silicon version of Docker.</string>
 	<key>Identifier</key>
-	<string>com.github.behrto.pkg.DockerDesktop-Silicon</string>
+	<string>com.github.behrto.pkg.DockerDesktop-Intel</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
