@@ -9,22 +9,6 @@
 		</category>
 		<trigger_checkin>true</trigger_checkin>
 	</general>
-	<scope>
-		<computer_groups>
-			<computer_group>
-				<name>%GROUP_NAME%</name>
-			</computer_group>
-		</computer_groups>
-	</scope>
-	<package_configuration>
-		<packages>
-			<size>1</size>
-			<package>
-				<name>%pkg_name%</name>
-				<action>Install</action>
-			</package>
-		</packages>
-	</package_configuration>
 	<scripts>
 		<size>0</size>
 	</scripts>

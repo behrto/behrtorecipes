@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Description</key>
+    <string>Downloads the current release version of Docker Desktop for Intel Chips and makes a package. Then, uploads the package to the JSS.</string>
+    <key>Identifier</key>
+    <string>com.github.behrto.jamf.Firefox-CreatePolicy</string>
+    <key>Input</key>
+    <dict>
+        <key>CATEGORY</key>
+        <string>Testing</string>
+        <key>POLICY_TEMPLATE</key>
+		<string>Policy-update-automatic-usernotify.xml</string>
+		<key>POLICY_NAME</key>
+		<string>Firefox Testpolicy Usernotify</string>
+        <key>UPDATE_PREDICATE</key>
+		<string>pkg_uploaded == False</string>
+    </dict>
+    <key>MinimumVersion</key>
+    <string>2.0</string>
+    <key>Process</key>
+    <array>
+        <dict>
+            <key>Processor</key>
+            <string>com.github.grahampugh.jamf-upload.processors/JamfCategoryUploader</string>
+            <key>Arguments</key>
+            <dict>
+                <key>category</key>
+                <string>%CATEGORY%</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>Processor</key>
+            <string>com.github.grahampugh.jamf-upload.processors/JamfPolicyUploader</string>
+            <key>Arguments</key>
+            <dict>
+                <key>policy_template</key>
+                <string>%POLICY_TEMPLATE%</string>
+                <key>policy_name</key>
+                <string>%POLICY_NAME%</string>
+				<key>replace_policy</key>
+                <string>True</string>
+        </dict>
+    </array>
+</dict>
+</plist>
