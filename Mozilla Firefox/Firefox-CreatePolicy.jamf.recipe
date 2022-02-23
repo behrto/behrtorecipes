@@ -41,6 +41,7 @@
                 <string>%POLICY_NAME%</string>
 				<key>replace_policy</key>
                 <string>True</string>
+            </dict>
         </dict>
     </array>
 </dict>
