@@ -16,6 +16,6 @@
 		<recon>true</recon>
 	</maintenance>
 	<user_interaction>
-      <message_finish>%JSS_INVENTORY_NAME% wurde gerade erfolgreich aktualisiert. Bitte starte die Anwendung neu, um die neue Version zu nutzen.</message_finish>
+      <message_finish>%NAME% wurde gerade erfolgreich aktualisiert. Bitte starte die Anwendung neu, um die neue Version zu nutzen.</message_finish>
     </user_interaction>
 </policy>

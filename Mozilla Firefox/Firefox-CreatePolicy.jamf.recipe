@@ -10,6 +10,8 @@
     <dict>
         <key>CATEGORY</key>
         <string>Testing</string>
+        <key>NAME</key>
+		<string>Firefox</string>
         <key>POLICY_TEMPLATE</key>
 		<string>Policy-update-automatic-usernotify.xml</string>
 		<key>POLICY_NAME</key>
