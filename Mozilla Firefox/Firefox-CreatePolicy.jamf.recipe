@@ -14,6 +14,8 @@
 		<string>Policy-update-automatic-usernotify.xml</string>
 		<key>POLICY_NAME</key>
 		<string>Firefox Testpolicy Usernotify</string>
+        <key>POLICY_CATEGORY</key>
+		<string>Testing</string>
         <key>UPDATE_PREDICATE</key>
 		<string>pkg_uploaded == False</string>
     </dict>
