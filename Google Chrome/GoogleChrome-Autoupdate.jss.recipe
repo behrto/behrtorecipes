@@ -24,6 +24,8 @@
 		<string>Auto Update %NAME%</string>
 		<key>UPDATE_PREDICATE</key>
 		<string>pkg_uploaded == False</string>
+		<key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
+        <string>true</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>2.3</string>
