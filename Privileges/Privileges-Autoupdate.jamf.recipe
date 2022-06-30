@@ -3,34 +3,32 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version and makes a pkg. Then, uploads the package to the Jamf Pro Server and creates a Self Service Policy and Smart Group.</string>
+	<string>Downloads the latest version and makes a pkg. Then, uploads the package to the Jamf Pro Server and creates a Smart Group.</string>
 	<key>Identifier</key>
-	<string>com.github.behrto.jss.CitrixWorkspace-Pilotgroup</string>
+	<string>com.github.behrto.jamf.Privileges-Autoupdate</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
-		<string>Virtualization</string>
+		<string>Security</string>
 		<key>GROUP_NAME</key>
-		<string>update-pilotgroup-%NAME%</string>
+		<string>update-automatic-%NAME%</string>
 		<key>GROUP_TEMPLATE</key>
-		<string>SmartGroup-update-pilotgroup-automatic-regex.xml</string>
-		<key>TESTING_GROUP_NAME</key>
-		<string>Pilotgroup Citrix Workspace</string>
+		<string>SmartGroup-update-automatic-regex.xml</string>
 		<key>NAME</key>
-		<string>Citrix Workspace</string>
+		<string>Privileges</string>
 		<key>POLICY_CATEGORY</key>
-		<string>Update Pilotgroup</string>
+		<string>Update Automatic</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>Policy-update-automatic.xml</string>
 		<key>POLICY_NAME</key>
-		<string>Update Pilotgroup %NAME%</string>
+		<string>Auto Update %NAME%</string>
 		<key>UPDATE_PREDICATE</key>
 		<string>pkg_uploaded == False</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>2.3</string>
 	<key>ParentRecipe</key>
-	<string>com.github.rtrouton.pkg.citrixworkspace</string>
+	<string>com.github.rtrouton.pkg.privileges</string>
 	<key>Process</key>
 	<array>
 		<dict>
@@ -76,7 +74,7 @@
 				<key>replace_group</key>
                 <string>True</string>
             </dict>
-        </dict>
+		</dict>
 		<dict>
             <key>Processor</key>
             <string>com.github.grahampugh.jamf-upload.processors/JamfPolicyUploader</string>

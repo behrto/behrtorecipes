@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version and makes a pkg. Then, uploads the package to the Jamf Pro Server and creates a Smart Group.</string>
 	<key>Identifier</key>
-	<string>com.github.behrto.jss.Slack-Autoupdate</string>
+	<string>com.github.behrto.jamf.iTerm2-Autoupdate</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
@@ -14,8 +14,10 @@
 		<string>update-automatic-%NAME%</string>
 		<key>GROUP_TEMPLATE</key>
 		<string>SmartGroup-update-automatic-regex.xml</string>
+		<key>JSS_INVENTORY_NAME</key>
+		<string>iTerm.app</string>
 		<key>NAME</key>
-		<string>Slack</string>
+		<string>iTerm2</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Update Automatic</string>
 		<key>POLICY_TEMPLATE</key>
@@ -24,11 +26,13 @@
 		<string>Auto Update %NAME%</string>
 		<key>UPDATE_PREDICATE</key>
 		<string>pkg_uploaded == False</string>
+		<key>RELEASE</key>
+		<string>final</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>2.3</string>
 	<key>ParentRecipe</key>
-	<string>com.github.behrto.pkg.Slack</string>
+	<string>com.github.behrto.pkg.iTerm2</string>
 	<key>Process</key>
 	<array>
 		<dict>

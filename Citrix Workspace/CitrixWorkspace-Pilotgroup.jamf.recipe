@@ -3,32 +3,34 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version and makes a pkg. Then, uploads the package to the Jamf Pro Server and creates a Smart Group.</string>
+	<string>Downloads the latest version and makes a pkg. Then, uploads the package to the Jamf Pro Server and creates a Self Service Policy and Smart Group.</string>
 	<key>Identifier</key>
-	<string>com.github.behrto.jss.VLC-Autoupdate</string>
+	<string>com.github.behrto.jamf.CitrixWorkspace-Pilotgroup</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
-		<string>Digital Media</string>
+		<string>Virtualization</string>
 		<key>GROUP_NAME</key>
-		<string>update-automatic-%NAME%</string>
+		<string>update-pilotgroup-%NAME%</string>
 		<key>GROUP_TEMPLATE</key>
-		<string>SmartGroup-update-automatic-regex.xml</string>
+		<string>SmartGroup-update-pilotgroup-automatic-regex.xml</string>
+		<key>TESTING_GROUP_NAME</key>
+		<string>Pilotgroup Citrix Workspace</string>
 		<key>NAME</key>
-		<string>VLC</string>
+		<string>Citrix Workspace</string>
 		<key>POLICY_CATEGORY</key>
-		<string>Update Automatic</string>
+		<string>Update Pilotgroup</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>Policy-update-automatic.xml</string>
 		<key>POLICY_NAME</key>
-		<string>Auto Update %NAME%</string>
+		<string>Update Pilotgroup %NAME%</string>
 		<key>UPDATE_PREDICATE</key>
 		<string>pkg_uploaded == False</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>2.3</string>
 	<key>ParentRecipe</key>
-	<string>com.github.behrto.pkg.VLC</string>
+	<string>com.github.rtrouton.pkg.citrixworkspace</string>
 	<key>Process</key>
 	<array>
 		<dict>
@@ -74,7 +76,7 @@
 				<key>replace_group</key>
                 <string>True</string>
             </dict>
-		</dict>
+        </dict>
 		<dict>
             <key>Processor</key>
             <string>com.github.grahampugh.jamf-upload.processors/JamfPolicyUploader</string>

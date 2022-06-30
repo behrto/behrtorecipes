@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version and makes a pkg. Then, uploads the package to the Jamf Pro Server and creates a Smart Group.</string>
 	<key>Identifier</key>
-	<string>com.github.behrto.jss.DevolutionsRemoteDesktopmanager-Autoupdate</string>
+	<string>com.github.behrto.jamf.Zoom-Autoupdate</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
@@ -13,9 +13,15 @@
 		<key>GROUP_NAME</key>
 		<string>update-automatic-%NAME%</string>
 		<key>GROUP_TEMPLATE</key>
-		<string>SmartGroup-update-automatic-regex.xml</string>
+		<string>SmartGroup-update-automatic-ea-regex.xml</string>
+		<key>EXTENSION_ATTRIBUTE_NAME</key>
+		<string>%NAME% Version</string>
+		<key>EXTENSION_ATTRIBUTE_SCRIPT</key>
+		<string>Zoom-ExtensionAttribute-CFBundleVersion.sh</string>
 		<key>NAME</key>
-		<string>Remote Desktop Manager</string>
+		<string>Zoom</string>
+        <key>JSS_INVENTORY_NAME</key>
+		<string>zoom.us.app</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Update Automatic</string>
 		<key>POLICY_TEMPLATE</key>
@@ -28,7 +34,7 @@
 	<key>MinimumVersion</key>
 	<string>2.3</string>
 	<key>ParentRecipe</key>
-	<string>com.github.behrto.pkg.DevolutionsRemoteDesktopManager</string>
+	<string>com.github.homebysix.pkg.Zoom</string>
 	<key>Process</key>
 	<array>
 		<dict>
@@ -38,6 +44,17 @@
             <dict>
                 <key>category_name</key>
                 <string>%CATEGORY%</string>
+            </dict>
+        </dict>
+		<dict>
+            <key>Processor</key>
+            <string>com.github.grahampugh.jamf-upload.processors/JamfExtensionAttributeUploader</string>
+            <key>Arguments</key>
+            <dict>
+                <key>ea_script_path</key>
+                <string>%EXTENSION_ATTRIBUTE_SCRIPT%</string>
+                <key>ea_name</key>
+                <string>%EXTENSION_ATTRIBUTE_NAME%</string>
             </dict>
         </dict>
 		<dict>
@@ -74,7 +91,7 @@
 				<key>replace_group</key>
                 <string>True</string>
             </dict>
-		</dict>
+        </dict>
 		<dict>
             <key>Processor</key>
             <string>com.github.grahampugh.jamf-upload.processors/JamfPolicyUploader</string>

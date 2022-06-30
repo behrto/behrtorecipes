@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version and makes a pkg. Then, uploads the package to the Jamf Pro Server and creates a Smart Group.</string>
+	<string>Downloads the latest version and makes a pkg. Then, uploads the package to the Jamf Pro Server and creates a Policy and Smart Group.</string>
 	<key>Identifier</key>
-	<string>com.github.behrto.jss.FileZilla-Autoupdate</string>
+	<string>com.github.behrto.jamf.CitrixWorkspace-Autoupdate</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
-		<string>Productivity</string>
+		<string>Virtualization</string>
 		<key>GROUP_NAME</key>
 		<string>update-automatic-%NAME%</string>
 		<key>GROUP_TEMPLATE</key>
 		<string>SmartGroup-update-automatic-regex.xml</string>
 		<key>NAME</key>
-		<string>FileZilla</string>
+		<string>Citrix Workspace</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Update Automatic</string>
 		<key>POLICY_TEMPLATE</key>
@@ -28,7 +28,7 @@
 	<key>MinimumVersion</key>
 	<string>2.3</string>
 	<key>ParentRecipe</key>
-	<string>com.github.behrto.pkg.FileZilla</string>
+	<string>com.github.rtrouton.pkg.citrixworkspace</string>
 	<key>Process</key>
 	<array>
 		<dict>

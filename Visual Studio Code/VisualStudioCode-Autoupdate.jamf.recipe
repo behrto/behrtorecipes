@@ -5,17 +5,17 @@
 	<key>Description</key>
 	<string>Downloads the latest version and makes a pkg. Then, uploads the package to the Jamf Pro Server and creates a Smart Group.</string>
 	<key>Identifier</key>
-	<string>com.github.behrto.jss.Privileges-Autoupdate</string>
+	<string>com.github.behrto.jamf.VisualStudioCode-Autoupdate</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
-		<string>Security</string>
+		<string>Productivity</string>
 		<key>GROUP_NAME</key>
 		<string>update-automatic-%NAME%</string>
 		<key>GROUP_TEMPLATE</key>
 		<string>SmartGroup-update-automatic-regex.xml</string>
 		<key>NAME</key>
-		<string>Privileges</string>
+		<string>Visual Studio Code</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Update Automatic</string>
 		<key>POLICY_TEMPLATE</key>
@@ -28,7 +28,7 @@
 	<key>MinimumVersion</key>
 	<string>2.3</string>
 	<key>ParentRecipe</key>
-	<string>com.github.rtrouton.pkg.privileges</string>
+	<string>com.github.killahquam.pkg.visualstudioscode</string>
 	<key>Process</key>
 	<array>
 		<dict>
