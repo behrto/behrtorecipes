@@ -30,7 +30,7 @@
 	<key>MinimumVersion</key>
 	<string>2.3</string>
 	<key>ParentRecipe</key>
-	<string>com.github.rtrouton.pkg.citrixworkspace</string>
+	<string>com.github.rtrouton.pkg.citrixworkspaceuniversal</string>
 	<key>Process</key>
 	<array>
 		<dict>
