@@ -39,13 +39,12 @@
 			<opening_paren>false</opening_paren>
 			<closing_paren>true</closing_paren>
 		</criterion>
-		</criterion>
-			<criterion>
+		<criterion>
 			<name>Architecture Type</name>
 			<priority>4</priority>
 			<and_or>and</and_or>
 			<search_type>is</search_type>
-			<value>x86_64</value>
+			<value>arm64x86_64</value>
 			<opening_paren>false</opening_paren>
 			<closing_paren>false</closing_paren>
 		</criterion>
