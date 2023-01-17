@@ -15,7 +15,9 @@
 		<key>GROUP_TEMPLATE</key>
 		<string>SmartGroup-update-automatic-regex-Silicon.xml</string>
 		<key>NAME</key>
-		<string>Docker</string>
+		<string>Docker Desktop</string>
+		<key>JSS_INVENTORY_NAME</key>
+		<string>Docker.app</string>
 		<key>UPDATE_PREDICATE</key>
 		<string>pkg_uploaded == False</string>
 		<key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
