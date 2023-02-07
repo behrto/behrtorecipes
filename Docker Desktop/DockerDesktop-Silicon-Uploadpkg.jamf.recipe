@@ -9,7 +9,7 @@
     <key>Input</key>
     <dict>
         <key>CATEGORY</key>
-        <string>Productivity</string>
+        <string>Development and Programming</string>
         <key>UPDATE_PREDICATE</key>
 		<string>pkg_uploaded == False</string>
     </dict>
