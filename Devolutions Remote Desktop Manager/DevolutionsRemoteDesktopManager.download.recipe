@@ -24,7 +24,7 @@
 				<string>data-g-platform="macos"
               data-g-version=</string>
 				<key>url</key>
-				<string>https://remotedesktopmanager.com/de/home/downloadenterprise/</string>
+				<string>https://devolutions.net/de/remote-desktop-manager/home/downloadenterprise</string>
 			</dict>
 			<key>Processor</key>
 			<string>URLTextSearcher</string>
